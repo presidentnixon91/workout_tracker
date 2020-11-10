@@ -1,0 +1,235 @@
+/* ---- GLOBAL STYLES ---- */
+
+/* LAYOUT */
+
+body {
+    padding-top: 76px;
+}
+.container {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.container-single {
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* HEADER */
+
+nav.navbar {
+    background-color: #1a1c2d;
+}
+nav h1 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+nav.scrolled {
+    background: rgba(0,0,0,0.6);
+}
+.navbar-collapse.show, .navbar-collapse.collapsing {
+    text-align: right;
+    padding-right: 8px;
+}
+.navbar-dark .navbar-toggler {
+    border: 0;
+    padding-right: 0;
+}
+#main-nav {
+    padding-left: 1.5rem;
+}
+
+/* BUTTONS */
+
+button:focus {
+    outline: none;
+}
+
+/* WIDGETS */
+
+.widget {
+    background-color: #0e1726;
+    box-shadow: 0 0.75rem 1.5rem rgba(18,38,63,.03);
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+}
+/* .widget h3 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+} */
+.widget-hero h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 2.5rem;
+    font-weight: 600;
+}
+.widget-hero {
+    min-height: 400px;
+}
+.widget-hero p {
+    font-size: 16px;
+    line-height: 1.2rem;
+}
+.widget-hero .widget-content {
+    position: absolute;
+    bottom: 15px;
+}
+.widget-img {
+    background-size: cover !important;
+}
+
+/* COLOURS */
+
+h1,h2,h3,h4,h5,h6 {
+    color: #e0e6ed;
+}
+
+/* FONT */
+
+body {
+    font-family: 'Nunito', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    letter-spacing: 0.0312rem;
+}
+
+/* FORMS */
+
+.widget label {
+    color: #acb0c3;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.form-group select {
+    -webkit-appearance: none;
+}
+@media only screen and (-webkit-min-device-pixel-ratio:0) {
+    .form-group select {
+        background: #1b2e4b url('/images/down-arrow.gif') no-repeat 98% center;
+    }
+}
+
+/* PAGINATION */
+
+.paginating-container li:not(:last-child) {
+    margin-right: 4px;
+}
+.pagination-solid a {
+    padding: 10px 15px;
+    font-weight: 600;
+    color: #888ea8;
+    background-color: #191e3a;
+    border-radius: 4px;
+}
+.pagination-solid a.disabled:hover {
+    cursor: pointer;
+}
+.pagination-solid a:not(.disabled):hover {
+    background-color: #009688;
+    color: #fff;
+}
+.pagination-solid li.active a {
+    border: 2px solid #009688;
+}
+
+/* LAYOUT */
+
+.v-middle {
+    display: table;
+    height: 100%;
+}
+.v-middle > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+.margin-b-1 {
+    margin-bottom: 30px;
+}
+
+/* FOOTER */
+footer.footer-fixed {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    padding: 15px 0;
+    width: 100%;
+    background-color: #1a1c2d;
+}
+
+/* CONTENT */
+
+
+
+/* OVERLAYS */
+
+
+/* ACCORDION */
+
+
+/* BOX SHADOWS */
+
+.box-shadow {
+    box-shadow: 0 0px 20px 10px rgba(17, 28, 91, 0.2);
+}
+.box-shadow-bottom {
+    box-shadow: 0px 20px 60px 0px rgba(17, 28, 91, 0.2);
+}
+
+/* BORDER-RADIUS */
+
+.border-radius-3 {
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    border-radius: 0.3rem;
+}
+
+/* POLLS */
+div.poll {
+    width: 100%;
+    overflow: hidden;
+}
+.poll-vote-container, .poll-results-container {
+    max-width: 345px;
+    height: 71px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background-color: #fff;
+}
+.poll-option {
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    position: relative;
+    height: 100%;
+    max-width: 85% !important;
+}
+.poll-vote-container .poll-option {
+    min-width: 161px;
+    padding: 20px 0;
+}
+.poll-results-container .poll-option {
+    padding: 5px 0;
+}
+.poll-vote-container .poll-option-1 {
+    border-right: 1px solid #d4d4d4;
+}
+.poll-option-1 {
+    color: #14c5ff;
+}
+a.poll-option-1:hover {
+    color: #0089ff;
+}
+.poll-vote-container .poll-option-2 {
+    border-left: 1px solid #d4d4d4;
+}
+.poll-option-2 {
+    color: #ba52fb;
+}
+a.poll-option-2:hover {
+    color: #9025d4;
+}

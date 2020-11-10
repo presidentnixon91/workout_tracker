@@ -1,0 +1,93 @@
+/* INDEX */
+
+#chin-up-bg {
+	background: url('/images/chin-up.jpg') no-repeat top center;
+}
+#deadlift-bg {
+	background: url('/images/deadlift.jpg') no-repeat top center;
+}
+#run-bg {
+	background: url('/images/run-prep.jpg') no-repeat top center;
+}
+#dumbbells-bg {
+	background: url('/images/dumbbells.jpg') no-repeat bottom center;
+}
+
+/* ACTIVITY LOG */
+
+#content-activity span.mg-comma:last-of-type {
+    display: none;
+}
+div.activity-card {
+	padding: 0;
+}
+.activity-icon-cell {
+	text-align: center;
+}
+.activity-card table {
+	margin: 0;
+}
+.activity-card span.activity-exercises {
+	color: #fff;
+}
+.activity-card a.toggle-link:not(.collapsed) .card-header, .activity-card a.toggle-link:not(.collapsed) .card-header span.activity-exercises {
+	color: #25d5e4;
+}
+.activity-card span.activity-date {
+	position: absolute;
+	right: 20px;
+	color: #888ea8;
+}
+
+/* PLAN WORKOUT */
+
+/* Colours for Supersets */
+tr.ss-1 td, tr.ss-4 td, tr.ss-7 td, tr.ss-10 td, tr.ss-13 td, tr.ss-16 td, tr.ss-19 td {
+  border-left-color: #e7515a;
+}
+tr.ss-2 td, tr.ss-5 td, tr.ss-8 td, tr.ss-11 td, tr.ss-14 td, tr.ss-17 td, tr.ss-20 td {
+  border-left-color: #883bff;
+}
+tr.ss-3 td, tr.ss-6 td, tr.ss-9 td, tr.ss-12 td, tr.ss-15 td, tr.ss-18 td, tr.ss-21 td {
+  border-left-color: #e2a13f;
+}
+
+/* NEW SET */
+
+/* Colours for Supersets */
+div.ss-1, div.ss-4, div.ss-7, div.ss-10, div.ss-13, div.ss-16, div.ss-19 {
+  border: 2px solid #e7515a;
+}
+div.ss-2, div.ss-5, div.ss-8, div.ss-11, div.ss-14, div.ss-17, div.ss-20 {
+  border: 2px solid #883bff;
+}
+div.ss-3, div.ss-6, div.ss-9, div.ss-12, div.ss-15, div.ss-18, div.ss-21 {
+  border: 2px solid #e2a13f;
+}
+
+.toggle-cards .card-header:after {
+	font-family: 'Glyphicons Halflings';
+    float: right;
+}
+.toggle-cards a[aria-expanded="false"] .card-header:after {
+    content: "\002b"; /* Minus */
+}
+.toggle-cards a[aria-expanded="true"] .card-header:after {
+    content: "\2212"; /* Plus */
+}
+div#check-records-content ul, div#percentageEstimates ul {
+	padding-left: 5px;
+	list-style: none;
+}
+
+/* CHECK RECORDS */
+
+div#check-records-content a {
+	color: lightblue;
+}
+
+/* END WORKOUT */
+
+#content-workout-results div.widget table {
+    margin: 0;
+}
