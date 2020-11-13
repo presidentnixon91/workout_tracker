@@ -135,11 +135,7 @@
 									<select class="form-control exercise-selection" id="exercise" name="exercise">
 										<?php 
 											require('includes/db.php');
-											if($formSubmitted || $exercisesPlanned) {
-												$sql = "SELECT DISTINCT * FROM $recordsTable WHERE MuscleGroup='$MuscleGroup'";
-											} else {
-												$sql = "SELECT DISTINCT * FROM $recordsTable WHERE MuscleGroup='Back'";
-											}
+											$sql = "SELECT DISTINCT * FROM $recordsTable WHERE MuscleGroup='$MuscleGroup'";
 											$result = $conn->query($sql);
 
 											if ($result->num_rows > 0) {
